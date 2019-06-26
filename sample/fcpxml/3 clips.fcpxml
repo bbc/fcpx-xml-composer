@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <media id="r1" name="test compound clip" uid="RCchL30rQpqFMxE2cKYUaw" modDate="2019-06-11 00:51:43 +0100">
+            <sequence duration="1864800/90000s" format="r2" tcStart="0s" tcFormat="NDF">
+                <spine>
+                    <asset-clip name="Basically, we're pretty happy with it - W1A - Series 3 Episode 3 Preview - BBC Two-ONWNWBoqTuM" offset="0s" ref="r3" duration="572400/90000s" start="752/25s" audioRole="dialogue" tcFormat="NDF"/>
+                    <asset-clip name="InVision Design Talks — A practical approach to research practice with Gregg Bernstein-cvgAvXFuJ7k" offset="572400/90000s" ref="r4" duration="24600/2500s" start="8062583/2500s" audioRole="dialogue" format="r5" tcFormat="NDF">
+                        <conform-rate srcFrameRate="30" scaleEnabled="0"/>
+                    </asset-clip>
+                    <asset-clip name="KateDarling_2018S-950k" offset="1458000/90000s" ref="r6" duration="113/25s" start="515/12s" audioRole="dialogue" format="r7" tcFormat="NDF">
+                        <conform-rate srcFrameRate="24"/>
+                    </asset-clip>
+                </spine>
+            </sequence>
+        </media>
+        <format id="r2" name="FFVideoFormat720p25" frameDuration="100/2500s" width="1280" height="720" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r3" name="Basically, we're pretty happy with it - W1A - Series 3 Episode 3 Preview - BBC Two-ONWNWBoqTuM" uid="586D329217625D74A406A5AC31E0C391" src="file:///Users/passap02/Movies/Basically,%20we're%20pretty%20happy%20with%20it%20-%20W1A%20-%20Series%203%20Episode%203%20Preview%20-%20BBC%20Two-ONWNWBoqTuM.mp4" start="0s" duration="12438000/90000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <bookmark>Ym9vaxADAAAAAAQQMAAAAH2zdmkruD1//ZabBfLsj//Om4QFNjrsSzdQ+cpj61LODAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAHBhc3NhcDAyBgAAAAEBAABNb3ZpZXMAAGIAAAABAQAAQmFzaWNhbGx5LCB3ZSdyZSBwcmV0dHkgaGFwcHkgd2l0aCBpdCAtIFcxQSAtIFNlcmllcyAzIEVwaXNvZGUgMyBQcmV2aWV3IC0gQkJDIFR3by1PTldOV0JvcVR1TS5tcDQAABAAAAABBgAAEAAAACAAAAAwAAAAQAAAAAgAAAAEAwAAElkHAAAAAAAIAAAABAMAACa/OQAAAAAACAAAAAQDAABnvzkAAAAAAAgAAAAEAwAAMf41AAIAAAAQAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAIAAAAAAQAAEHA43zCU4iZGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAIAAAAAAAAABAAAAAMDAAAfaX9ICAAAAAEJAABmaWxlOi8vLwsAAAABAQAAQkJDIERlc2t0b3AACAAAAAQDAAAAkCBodAAAAAgAAAAABAAAQb5IjQIAAAAkAAAAAQEAAEYzOUE2MDUzLTY4NTQtMzYxOS04RDA3LTQ0NkE1NEFDNjZBQhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAACsAAAAAAAAAAUQAAAEAQAAAAAAABAQAAAsAQAAAAAAAEAQAAAcAQAAAAAAAAIgAAD4AQAAAAAAAAUgAABoAQAAAAAAABAgAAB4AQAAAAAAABEgAACsAQAAAAAAABIgAACMAQAAAAAAABMgAACcAQAAAAAAACAgAADYAQAAAAAAADAgAAAEAgAAAAAAAAHAAABMAQAAAAAAABHAAAAgAAAAAAAAABLAAABcAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <asset id="r4" name="InVision Design Talks — A practical approach to research practice with Gregg Bernstein-cvgAvXFuJ7k" uid="7B0D7980F55120ACD0C59E1400755805" src="file:///Users/passap02/Movies/Untitled.fcpbundle/12-10-2018/Original%20Media/InVision%20Design%20Talks%20%E2%80%94%20A%20practical%20approach%20to%20research%20practice%20with%20Gregg%20Bernstein-cvgAvXFuJ7k.mp4" start="0s" duration="50152960/15360s" hasVideo="1" format="r5" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <bookmark>Ym9va6QDAAAAAAQQMAAAAJuBaCgf245OLzXMEBija/NA723lMQJq5HRT5RabyBxhoAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAHBhc3NhcDAyBgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAKAAAAAQEAADEyLTEwLTIwMTgAAA4AAAABAQAAT3JpZ2luYWwgTWVkaWEAAGgAAAABAQAASW5WaXNpb24gRGVzaWduIFRhbGtzIOKAlCBBIHByYWN0aWNhbCBhcHByb2FjaCB0byByZXNlYXJjaCBwcmFjdGljZSB3aXRoIEdyZWdnIEJlcm5zdGVpbi1jdmdBdlhGdUo3ay5tcDQcAAAAAQYAABAAAAAgAAAAMAAAAEAAAABcAAAAcAAAAIgAAAAIAAAABAMAABJZBwAAAAAACAAAAAQDAAAmvzkAAAAAAAgAAAAEAwAAZ785AAAAAAAIAAAABAMAAIc5DAACAAAACAAAAAQDAAC5OQwAAgAAAAgAAAAEAwAAcpDMAAIAAAAIAAAABAMAAFW3zAACAAAAHAAAAAEGAAAcAQAALAEAADwBAABMAQAAXAEAAGwBAAB8AQAACAAAAAAEAABBwR3azUDCSBgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAAH2l/SAgAAAABCQAAZmlsZTovLy8LAAAAAQEAAEJCQyBEZXNrdG9wAAgAAAAEAwAAAJAgaHQAAAAIAAAAAAQAAEG+SI0CAAAAJAAAAAEBAABGMzlBNjA1My02ODU0LTM2MTktOEQwNy00NDZBNTRBQzY2QUIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA+AAAAAAAAAAFEAAAjAEAAAAAAAAQEAAAwAEAAAAAAABAEAAAsAEAAAAAAAACIAAAjAIAAAAAAAAFIAAA/AEAAAAAAAAQIAAADAIAAAAAAAARIAAAQAIAAAAAAAASIAAAIAIAAAAAAAATIAAAMAIAAAAAAAAgIAAAbAIAAAAAAAAwIAAAmAIAAAAAAAABwAAA4AEAAAAAAAARwAAAIAAAAAAAAAASwAAA8AEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+        </asset>
+        <format id="r5" name="FFVideoFormat720p30" frameDuration="100/3000s" width="1280" height="720" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r6" name="KateDarling_2018S-950k" uid="A47CBCACFB568C34C5509510575B8307" src="file:///Users/passap02/Movies/Untitled.fcpbundle/12-10-2018/Original%20Media/KateDarling_2018S-950k.mp4" start="0s" duration="426750/600s" hasVideo="1" format="r7" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <bookmark>Ym9va1gDAAAAAAQQMAAAANSevXI9bd9eziu3hRq+mFLrjSdS7wCZbe3L1yJmcPntVAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAHBhc3NhcDAyBgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAKAAAAAQEAADEyLTEwLTIwMTgAAA4AAAABAQAAT3JpZ2luYWwgTWVkaWEAABoAAAABAQAAS2F0ZURhcmxpbmdfMjAxOFMtOTUway5tcDQAABwAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAABwAAAAiAAAAAgAAAAEAwAAElkHAAAAAAAIAAAABAMAACa/OQAAAAAACAAAAAQDAABnvzkAAAAAAAgAAAAEAwAAhzkMAAIAAAAIAAAABAMAALk5DAACAAAACAAAAAQDAABykMwAAgAAAAgAAAAEAwAAbd7MAAIAAAAcAAAAAQYAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAADABAAAIAAAAAAQAAEHBHd3WV3p7GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAAfaX9ICAAAAAEJAABmaWxlOi8vLwsAAAABAQAAQkJDIERlc2t0b3AACAAAAAQDAAAAkCBodAAAAAgAAAAABAAAQb5IjQIAAAAkAAAAAQEAAEYzOUE2MDUzLTY4NTQtMzYxOS04RDA3LTQ0NkE1NEFDNjZBQhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAACsAAAAAAAAAAUQAABAAQAAAAAAABAQAAB0AQAAAAAAAEAQAABkAQAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAADAAQAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAADAgAABMAgAAAAAAAAHAAACUAQAAAAAAABHAAAAgAAAAAAAAABLAAACkAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <format id="r7" frameDuration="1/24s" width="854" height="480" paspH="1280" paspV="1281" colorSpace="6-1-6 (Rec. 601 (NTSC))"/>
+    </resources>
+    <library location="file:///Users/passap02/Movies/Untitled.fcpbundle/">
+        <event name="12-10-2018" uid="909CE72A-50FC-4EB2-9704-DF03324F71D2">
+            <ref-clip name="test compound clip" ref="r1" duration="1864800/90000s" useAudioSubroles="1" modDate="2019-06-11 00:51:43 +0100"/>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

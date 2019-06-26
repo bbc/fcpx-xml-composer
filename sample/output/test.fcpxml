@@ -1,0 +1,30 @@
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+<resources>
+          <asset id="r1" src="w1a-clip.mp4" start="10s" duration="10s" hasVideo="1" hasAudio="1" format="r2" audioSources="1" audioChannels="2" audioRate="48000"/>
+  <format id="r2" name="FFVideoFormat720p25"/>
+  <asset id="r3" src="w1a-clip.mp4" start="45s" duration="10s" hasVideo="1" hasAudio="1" format="r4" audioSources="1" audioChannels="2" audioRate="48000"/>
+  <format id="r4" name="FFVideoFormat720p25"/>
+  <asset id="r5" src="w1a-clip.mp4" start="45s" duration="10s" hasVideo="1" hasAudio="1" format="r6" audioSources="1" audioChannels="2" audioRate="48000"/>
+  <format id="r6" name="FFVideoFormat720p25"/>
+</resources> <library>
+ <event name="Demo Title of project">
+     <project name="Demo Title of project">
+         <sequence format="r2">
+             <spine>
+                 <asset-clip name="w1a-clip.mp4" ref="r1" start="10s" duration="10s" audioRole="dialogue"/>
+<asset-clip name="w1a-clip.mp4" ref="r3" start="45s" duration="10s" audioRole="dialogue"/>
+<asset-clip name="w1a-clip.mp4" ref="r5" start="45s" duration="10s" audioRole="dialogue"/>
+             </spine>
+         </sequence>
+     </project>
+     <!-- TODO:? optionally if want to show clips used in the project event, under the sequence/compound clip - could add those here too -->
+     <!-- Clips -->
+     <!-- <asset-clip name="Basically, we're pretty happy with it - W1A - Series 3 Episode 3 Preview - BBC Two-ONWNWBoqTuM" ref="r1" format="r2" duration="5s" audioRole="dialogue"/> -->
+     <asset-clip name="w1a-clip.mp4" ref="r1" start="10s" duration="10s" audioRole="dialogue"/>
+<asset-clip name="w1a-clip.mp4" ref="r3" start="45s" duration="10s" audioRole="dialogue"/>
+<asset-clip name="w1a-clip.mp4" ref="r5" start="45s" duration="10s" audioRole="dialogue"/>
+     </event>
+</library>
+</fcpxml>

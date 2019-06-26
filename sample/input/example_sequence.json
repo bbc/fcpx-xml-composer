@@ -1,0 +1,32 @@
+{
+    "title": "Demo Title of project",
+    "events":  [
+      { 
+        "id":1,
+        "startTime": 10, 
+        "endTime": 20,
+        "reelName":"SomeReelName",
+        "clipName":"w1a-clip.mp4",
+        "offset": "00:00:28:08",
+        "fps": 25
+      },
+      { 
+        "id":2,
+        "startTime": 45,
+        "endTime": 55,
+        "reelName":"SomeOtherReelName",
+        "clipName":"w1a-clip.mp4",
+        "offset": "00:00:28:08",
+        "fps": 25
+      },
+    { 
+        "id":2,
+        "startTime": 45,
+        "endTime": 55,
+        "reelName":"NA",
+        "clipName":"w1a-clip.mp4",
+        "offset": "00:00:28:08",
+        "fps": 25
+      }
+    ]
+}

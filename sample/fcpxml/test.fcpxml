@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.7">
+    <!-- Resources -->
+    <resources>
+        <asset id="r1" src="file:///Basically,%20we're%20pretty%20happy%20with%20it%20-%20W1A%20-%20Series%203%20Episode%203%20Preview%20-%20BBC%20Two-ONWNWBoqTuM.mp4" start="0s" duration="10s" hasVideo="1" hasAudio="1" format="r2" audioSources="1" audioChannels="2" audioRate="48000"/>
+        <format id="r2" name="FFVideoFormat720p25"/>
+    </resources>
+    <library>
+        <!-- Events -->
+        <event name="MyEventTest">
+            <project name="MyProjectTest">
+                <!-- Project Story Elements -->
+                <sequence format="r2">
+                    <spine>
+                        <asset-clip name="Basically, we're pretty happy with it - W1A - Series 3 Episode 3 Preview - BBC Two-ONWNWBoqTuM" ref="r1" start="0s" duration="5s" audioRole="dialogue"/>
+                    </spine>
+                </sequence>
+            </project>
+            <!-- Clips -->
+            <!-- <asset-clip name="Basically, we're pretty happy with it - W1A - Series 3 Episode 3 Preview - BBC Two-ONWNWBoqTuM" ref="r1" format="r2" duration="5s" audioRole="dialogue"/> -->
+        </event>
+    </library>
+</fcpxml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <media id="r1" name="morgan-sequence" uid="4DzT/dKaSguU1zcLxiK7Zg" modDate="2019-06-11 00:43:06 +0100">
+            <sequence duration="46300/2500s" format="r2" tcStart="0s" tcFormat="NDF" audioLayout="stereo">
+                <spine>
+                    <asset-clip name="MorganVague_2018X" offset="0s" ref="r3" duration="46300/2500s" start="292292/2500s" audioRole="dialogue" format="r4" tcFormat="NDF">
+                        <conform-rate srcFrameRate="24" scaleEnabled="0"/>
+                    </asset-clip>
+                </spine>
+            </sequence>
+        </media>
+        <format id="r2" name="FFVideoFormat1080p25" frameDuration="100/2500s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r3" name="MorganVague_2018X" uid="FD94593BB6DC444883A0C0DE4E32F1D7" src="file:///Users/passap02/Movies/Untitled.fcpbundle/Demo%20Title%20of%20project/Original%20Media/MorganVague_2018X.mp4" start="0s" duration="334425/600s" hasVideo="1" format="r4" hasAudio="1" audioSources="1" audioChannels="1" audioRate="44100">
+            <bookmark>Ym9va2ADAAAAAAQQMAAAAGHa+NmiQzX0yvP1RCq1PZfuE+kcaulwz08llO/4jWUuXAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAHBhc3NhcDAyBgAAAAEBAABNb3ZpZXMAABIAAAABAQAAVW50aXRsZWQuZmNwYnVuZGxlAAAVAAAAAQEAAERlbW8gVGl0bGUgb2YgcHJvamVjdAAAAA4AAAABAQAAT3JpZ2luYWwgTWVkaWEAABUAAAABAQAATW9yZ2FuVmFndWVfMjAxOFgubXA0AAAAHAAAAAEGAAAQAAAAIAAAADAAAABAAAAAXAAAAHwAAACUAAAACAAAAAQDAAASWQcAAAAAAAgAAAAEAwAAJr85AAAAAAAIAAAABAMAAGe/OQAAAAAACAAAAAQDAACHOQwAAgAAAAgAAAAEAwAA8dvMAAIAAAAIAAAABAMAAPnbzAACAAAACAAAAAQDAABg3MwAAgAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQcFQl+wWazAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAB9pf0gIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABCQkMgRGVza3RvcAAIAAAABAMAAACQIGh0AAAACAAAAAAEAABBvkiNAgAAACQAAAABAQAARjM5QTYwNTMtNjg1NC0zNjE5LThEMDctNDQ2QTU0QUM2NkFCGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAAiAAAEgCAAAAAAAABSAAALgBAAAAAAAAECAAAMgBAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAMCAAAFQCAAAAAAAAAcAAAJwBAAAAAAAAEcAAACAAAAAAAAAAEsAAAKwBAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+        </asset>
+        <format id="r4" frameDuration="1/24s" width="512" height="288" colorSpace="6-1-6 (Rec. 601 (NTSC))"/>
+    </resources>
+    <library location="file:///Users/passap02/Movies/Untitled.fcpbundle/">
+        <event name="Demo Title of project" uid="537EADDF-64D4-42BA-BF2B-4C3C0D3F0CF4">
+            <ref-clip name="morgan-sequence" ref="r1" duration="46300/2500s" useAudioSubroles="1" modDate="2019-06-11 00:43:06 +0100"/>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
