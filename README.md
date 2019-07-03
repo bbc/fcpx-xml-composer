@@ -15,7 +15,7 @@ _How to build and run the code/app_ -->
 
 cd, clone the repo, `npm install`
 
-## Usage
+## Usage - development
 
 see [`example-usage.js`](./example-usage.js) for how to requrie and use the module.
 
@@ -24,6 +24,15 @@ To run the example do `node example-usage.js`
 
 When importing the `.fcpxml` sequence in FCPX the media is going to be offline, to re-link the media go to `Files` `->` `Relink  Files` or see 
 [see Re-link offline clips in FCPX, for more details](https://support.apple.com/kb/PH12701?locale=en_US).
+
+## Usage - production
+
+```
+npm install @bbc/fcpx-xml-composer
+```
+
+require or import in your code and see example usage for more details
+
 
 ## System Architecture
 <!-- _High level overview of system architecture_ -->

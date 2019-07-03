@@ -4,10 +4,14 @@
   "description": "Convert a json sequence into an FCPX XML.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:public": "npm publish --access public",
+    "publish:dry:run": "npm publish --dry-run"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
