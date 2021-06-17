@@ -84,12 +84,14 @@ const composeAssetClip = ({clipName, ref, start, duration, audioRole = 'dialogue
 const jsonToFCPX = (sequenceEDLJson)=>{
     let counterIdAssetClips = 1;
     // sequenceEDLJson.events 
-    const assetClips = sequenceEDLJson.events.map((event, index)=>{
-        const results = composeAssetClip({
+    const assetClips = sequenceEDLJson.events.map((event, index) => {
+        const durationFrames = (event.endTime - event.startTime) * 2500;
+        const roundedDuration = Math.ceil(durationFrames / 100) * 100; // removes clip boundary warning on FCPX import
+        const results = composeAssetClip( {
             clipName: event.clipName, 
-            ref:`r${counterIdAssetClips}`,
-            start: event.startTime,
-            duration: event.endTime - event.startTime
+            ref:`r${ counterIdAssetClips }`,
+            start: `${ event.startTime * 2500 }/2500`,
+            duration: `${ roundedDuration }/2500`
         })
         counterIdAssetClips=counterIdAssetClips+2;
         return results;
@@ -106,7 +108,7 @@ const jsonToFCPX = (sequenceEDLJson)=>{
         const results = composeAsset( {id: `r${counterId}`, 
             src: event.clipName, 
             start: event.startTime, 
-            duration: event.endTime - event.startTime,
+            duration: event.endTime,
             // hasVideo = 1, 
             // hasAudio = 1, 
             formatId: `r${counterId+1}`, 
