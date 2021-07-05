@@ -92,7 +92,7 @@ const jsonToFCPX = (sequenceEDLJson)=>{
         const results = composeAssetClip( {
             clipName: event.clipName, 
             ref:`r${counterIdAssetClips}`,
-            start: `${ event.startTime * FRAME_RATE }/${ FRAME_RATE }`,
+            start: `${ Math.round(event.startTime * FRAME_RATE) }/${ FRAME_RATE }`,
             duration: `${ roundedDuration }/${ FRAME_RATE }`
        })
         counterIdAssetClips=counterIdAssetClips+2;
